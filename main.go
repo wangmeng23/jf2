@@ -33,7 +33,7 @@ func startOne(setIp string) {
 	params := reward.Params{
 		Conn:   conn,
 		UrlGet: "https://www.bing.com/search",
-		UaPc:   "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; SE 2.X MetaSr 1.0; SE 2.X MetaSr 1.0; .NET CLR 2.0.50727; SE 2.X MetaSr 1.0)",
+		UaPc:   "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 Core/1.47.277.400 QQBrowser/9.4.7658.400",
 		UaMb:   "Mozilla/5.0 (Linux; Android 8.0.1; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Mobile Safari/537.36",
 	}
 	// init任务管理器处理
